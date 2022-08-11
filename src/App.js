@@ -11,7 +11,15 @@ import { StyleSheet, SafeAreaView } from 'react-native';
 // import ParImpar from './components/ParImpar';
 // import Pai from './components/relacao/Pai';
 // import Filho from './components/relacao/Filho';
-import UsuarioLogado from './components/UsuarioLogado';
+// import UsuarioLogado from './components/UsuarioLogado';
+// import ListaProdutos from './components/produtos/ListaProdutos';
+// import ListaProdutosV2 from './components/produtos/ListaProdutosV2';
+// import DigiteSeuNome from './components/DigiteSeuNome';
+// import FlexBoxV1 from './components/layout/FlexBoxV1';
+// import FlexBoxV2 from './components/layout/FlexBoxV2';
+// import FlexBoxV3 from './components/layout/FlexBoxV3';
+// import FlexBoxV4 from './components/layout/FlexBoxV4';
+import Mega from './components/mega/Mega';
 
 function App() {
     return (
@@ -34,9 +42,17 @@ function App() {
                 <Filho nome="Mario" sobrenome="Arruda" />
                 <Filho nome="João" sobrenome="Silva" />
             </Pai> */}
-            <UsuarioLogado usuario={{ nome: "Pedro", email: "pedro@gmail.com"}} />
+            {/* <UsuarioLogado usuario={{ nome: "Pedro", email: "pedro@gmail.com"}} />
             <UsuarioLogado usuario={{ nome: "Maria" }} />
-            <UsuarioLogado usuario={{}} />
+            <UsuarioLogado usuario={{}} /> */}
+            {/* <ListaProdutos /> */}
+            {/* <ListaProdutosV2 /> */}
+            {/* <DigiteSeuNome /> */}
+            {/* <FlexBoxV1 /> */}
+            {/* <FlexBoxV2 /> */}
+            {/* <FlexBoxV3 /> */}
+            {/* <FlexBoxV4 /> */}
+            <Mega quantidadeNumeros={7} />
         </SafeAreaView>
     )
 }
@@ -48,5 +64,6 @@ const style = StyleSheet.create({
         flexGrow: 1,
         justifyContent: 'center',
         alignItems: 'center',
+        padding: 20,
     },
 })
