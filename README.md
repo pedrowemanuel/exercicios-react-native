@@ -1,2 +1,2 @@
 # exercicios-react-native
-Exercícios do curso de React Native: Desenvolva APPs Nativas para Android e iOS da CODER
+Exercícios feitos em curso de react native
